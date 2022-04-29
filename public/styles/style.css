@@ -1,0 +1,360 @@
+.logo{
+    font-family: 'frijole';
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+    font-size: 25px!important;
+}
+
+.cor-green{
+    font-family:'Poppins';
+    font-weight: 700;
+    background-color: #67d8c19c!important;
+}
+
+.navbar{
+    background-color: #00ffcb9e;
+    box-shadow: 0px 0px 15px #ffff;
+    height: 70px;
+    z-index: 8888;
+}
+
+.menu{
+    font-weight: 600!important;
+    text-shadow: 0 0 2px blue;
+    font-family: 'Orbitron'
+}
+
+.menu-2{
+    transition: all 0.5s ease;
+}
+
+.menu-2:hover{
+    border-bottom:1px solid #fff;
+}
+
+.bck-img{
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.73)), url(/img/wp9015385-dog-4k-hd-wallpapers.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    width: 100%;
+}
+
+.blur{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: sans-serif;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+#front-page{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 94px);
+}
+
+.title{
+    font-size: 2em;
+    font-family: 'Frijole';
+    color: #fff;
+}
+
+.home p{
+    color: #ffff;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+.home p span{
+    font-weight: 700;
+}
+
+.index{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    color: #ffff;
+}
+
+.click-me{
+    font-weight: 700;
+    font-size: 0.9em;
+}
+
+footer{
+    font-family: sans-serif;
+    background-color: #00ffcb9e;
+    font-weight: 600;
+}
+
+footer p{
+    padding: 1px 0;
+    font-size: 0.9em;
+}
+
+footer p a {
+    text-shadow: 0 0 3px black;
+    color: rgb(199 199 199);
+    font-size: 0.8em;
+    text-decoration: none;
+    font-family: 'Frijole';
+    transition: all 0.6s ease;
+}
+
+footer p a:hover{
+    color: rgb(76, 111, 76);
+}
+
+/* Services */
+
+.tab-content{
+    top: 3px;
+}
+
+.card-header-tabs{
+    background-color: #03786100!important;
+}
+
+.card-header{
+    background-color: #037861d6!important;
+}
+
+.nav-tabs .nav-item .nav-link{
+    text-shadow: 0 0 3px #fff;
+    font-weight: 400!important;
+}
+
+/* Products */
+
+.box{
+    width: 225px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 25px;
+}
+
+.slide-img{
+    height: 200px;
+    position: relative;
+}
+
+.slide-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+.detail-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-family: 'calibri';
+}
+
+.type{
+    display: flex;
+    flex-direction: column;
+}
+
+.type a{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 5px 0px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding-right: 8px;
+}
+
+.type a:hover{
+    color: #d0f6b5;
+}
+
+.type span{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.preço{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.preço:hover{
+    color: #d0f6b5;
+}
+
+.overlay{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(37, 70, 43, 0.281);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+.slide-img:hover .overlay{
+    visibility: visible;
+    animation: fade 0.5s;
+}
+
+.buy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.cS-hidden {
+    height: 1px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    overflow: hidden;
+}
+
+.prod{
+    margin: 0;
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@media(max-width:1199px){
+
+    #front-page{
+        height: 100vh;
+        padding-top: 50px!important;
+    }
+}
+
+
+@media(max-width:991px){
+
+    #front-page{
+        height: 100vh;
+        padding-top: 0px!important;
+    }
+
+    /* prod */
+
+    .prod{
+        margin: 100px 0;
+    }
+
+    /* Contacts */
+
+    iframe{
+        margin: auto!important;
+        width: 240px!important;
+        height: 330px!important;
+    }
+}
+
+
+@media(max-width:767px){
+
+    .map{
+        display: none!important;
+    }
+
+    .navbar{
+        background-color: #06A782;
+    }
+
+    .collapse{
+        z-index: 9999;
+        background-color: #06A782;
+    }
+    
+    .navbar-collapse{
+        background-color: #06A782;
+        z-index: 9999;
+    }
+    
+    #navbarSupportedContent{
+        background-color: #06A782;
+        z-index: 9999;
+    }
+
+    .imager{
+        display: none!important;
+    }
+
+    #front-page{
+        height: 100vh - (9);
+        padding-top: 0px!important;
+    }
+
+    .home p {
+        font-size: 0.9em!important;
+    }
+
+    /* Products */
+
+    .prod{
+        margin: 60px 0;
+    }
+
+
+}
+
+@media(max-width:385px){
+
+    /* Home */
+
+    .navbar-light .navbar-brand {
+        font-size: 21px!important;
+        margin-right: 0!important;
+        margin-left: 2px!important;    
+    }
+    
+    .home h2 {
+        padding-top: 1.5rem!important;
+        padding-bottom: 1.5rem!important;
+    }
+
+    /* Services */
+
+    .logo{
+        margin-left: 0.5rem!important;
+        margin-right: 0px!important;
+    }
+
+    .tab-pane p{
+        font-size: 13px!important;
+    }
+
+    .agend{
+        font-size: 15px!important;
+    }
+
+    /* Products */
+
+    .prod{
+        margin: 60px 0;
+    }
+
+}

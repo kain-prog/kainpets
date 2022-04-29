@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <%- include('../partials/head'); %>
+
+<body class="bck-img">
+  
+  <%- include('../partials/header'); %>
+
+  <main>
+    
+    <section class="blur">
+
+      <section class="container" id="front-page">
+
+          <div class="card text-center m-auto">
+            <div class="card-header">
+              <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item">
+                  <a class="nav-link active text-dark" role="tab" data-bs-toggle="tab" aria-current="true" href="#bt">Banho e Tosa</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link text-dark" role="tab" data-bs-toggle="tab" href="#hospedagem">Hosp.</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark" role="tab" data-bs-toggle="tab" href="#veterinario">Vet.</a>
+                </li>
+              </ul>
+            </div>
+            <div class="tab-content w-100" id="nav-tabContent">
+              <div class="tab-pane fade show active my-2 p-2" role="tabpanel" id="bt">
+                <img src="img/cat-dog-banho.png" style="height: 195px; width: 300px;" class="imager rounded float-start" alt="...">
+                <h5 class="card-title text-start"><strong>Banho e Tosa</strong></h5>
+                <p class="card-text text-start px-2 py-2">Pets felizes são pets limpinhos e cheirosos. Prestamos serviços de banho, tosa, hidratação e tratamentos especiais para cães e gatos, com uma boa dose de carinho.
+
+                  Nosso espaço de banho e tosa é totalmente planejado para que mães e pais possam acompanhar cada passo do dia de beleza dos seus filhos de patas.
+                  
+                  Tudo foi pensado para que os pets fiquem confortáveis, profissionais trabalhem com eficiência, e mães e pais possam ficar tranquilos.
+                  
+                  Totalmente planejado para que cães e gatos tenham uma experiência agradável, tranquila e com muito amor envolvido.
+                  
+                  Trabalhamos apenas com produtos de primeira linha com excelente qualidade e além disso:
+                  
+                  <strong>Tratamentos naturais e hidratação;</strong> 
+                  <strong>Produtos hipoalergênicos para todos os tipos de pelagens;</strong> 
+                  <strong>Produtos hipoalergênicos para todos os tipos de pelagens;</strong> 
+                </p>
+                <h5 class="text-start ps-2 agend"><strong>Agenda hoje mesmo para seu pet:</strong></h5>
+                  
+                <a href="#" class="btn btn-success">Agendar</a>
+              </div>
+              <div class="tab-pane fade show my-2 p-2" role="tabpanel" id="hospedagem">
+                <img src="img/dog-house.jpg" style="height: 195px; width: 245px;" class="imager rounded float-start" alt="...">
+                <h5 class="card-title text-start"><strong>Hospedagem</strong></h5>
+                <p class="card-text text-start">Vai viajar ou não quer deixar seu cachorro sozinho em casa?</p>
+
+                <p class="text-start"> Encontre o anfitrião ideal:
+                O hotelzinho que seu cachorro merece é um lar: com um <strong>profissional</strong> que cuida com amor e mantém 
+                a rotina dele como em casa</p>
+                
+                <p class="text-start"> Mate a Saudade do Cãozinho:
+                Seu anfitrião vai enviar fotos e vídeos do cachorrinho para você acompanhar a hospedagem e não se preocupar</p>
+
+                <p class="text-start"> Garantia Veterinária:
+                Para assegurar hospedagens seguras, todas as reservas fechadas pela <strong>Kain-Pets </strong>contam com a Garantia
+                Veterinária, que reembolsa gastos de saúde em até R$ 5 mil.
+                </p>
+
+                <a href="#" class="btn btn-success">Agendar</a>
+              </div>
+              <div class="tab-pane fade show my-2 p-2" role="tabpanel" id="veterinario">
+                <img src="img/veterinario.jpg" style="height: 195px; width: 285px;" class="imager rounded float-start pe-3" alt="...">
+                <h5 class="card-title text-start"><strong>Agendamento de Consultas</strong></h5>
+                <p class="card-text text-start">Faça agora o seu agendamento, a primeira consulta é grátis. Informe os dados abaixo:</p>
+                <form action="">
+                  
+                  <label class="text-start mb-2" for="">
+                    <span>Nome do Anfitrião:</span>
+                    <input type="text">
+                  </label>
+                  <label class="text-start mb-2 me-4" for="">
+                    <span>Nome do Pet:</span>
+                    <input type="text">
+                  </label>
+                  <div class="mt-4">
+                    <input class="btn btn-success" type="button" value="Agendar">
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+      </section>
+    </section>
+  </main>
+
+  <%- include('../partials/footer'); %>
+
+</body>
+</html>

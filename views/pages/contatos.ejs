@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <%- include('../partials/head'); %>
+
+<body class="bck-img">
+    
+    <%- include('../partials/header'); %>
+
+    <main>
+
+        <section class="blur">
+
+            <article class="container justify-content-center" id="front-page">
+
+                <div class="container">
+                    <div class="row align-items-start m-auto">
+                      <div class="col map m-auto">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235199.33675585972!2d-43.586067455204656!3d-22.91375308112177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bde559108a05b%3A0x50dc426c672fd24e!2sRio%20de%20Janeiro%2C%20RJ!5e0!3m2!1spt-BR!2sbr!4v1651069112232!5m2!1spt-BR!2sbr" width="400" height="450" frameborder="0" style="border-radius:15px; box-shadow:0 0 15px #06A782;" allowfullscreen="" aria-hidden="false" tabindex="0">
+                        </iframe> 
+                      </div>
+                      <div class="col">
+                            <h2 class="title">Entre em contato:</h2>
+                            <div>
+                                <form action="">
+                                    <div class="input-group mt-5 mb-3">
+                                        <span class="input-group-text cor-green" id="basic-addon1">Nome</span>
+                                        <input type="text" class="form-control" placeholder="Nome" aria-label="Username" aria-describedby="basic-addon1" required>
+                                    </div>
+                                    
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text cor-green" id="basic-addon2">@algumacoisa.com</span>
+                                        <input type="text" class="form-control" placeholder="Digite seu E-mail" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        
+                                    </div>
+                                    
+                                    <label for="basic-url" class="form-label">Seu número de telefone</label>
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text cor-green" id="basic-addon3">(XX) 9 XXXX-XXXX</span>
+                                        <input type="tel" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                                    </div>
+                                    
+                                    <div class="input-group">
+                                        <span class="input-group-text cor-green">Escreva sua dúvida aqui</span>
+                                        <textarea class="form-control" aria-label="With textarea" cols="30" rows="6"></textarea>
+                                    </div>
+                                  </form>
+                            </div>
+                      </div>
+                    </div>
+
+
+               
+                
+            </article>
+        </section> 
+    </main>
+
+    <%- include('../partials/footer'); %>
+
+</body>
+</html>
