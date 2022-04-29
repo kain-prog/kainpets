@@ -1,6 +1,6 @@
 Page with EJS - Kain-Pets <br>
 
-https://kain-prog.github.io/kainpets/
+https://kainpets.herokuapp.com/
 
 <img src="./public/img/home-page.PNG" alt="Página home(principal)"> 
 <img src="./public/img/services.PNG" alt="Página de serviços com cards"> 
@@ -20,7 +20,7 @@ O projeto foi criado em:
 - [x] EJS
 - [x] NODE
 
-Resultado: https://kain-prog.github.io/teste-OnePage/
+Resultado: https://kainpets.herokuapp.com/
 
 ## 🤝 Colaboradores
 
