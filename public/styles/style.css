@@ -233,6 +233,11 @@ footer p a:hover{
     margin: 0;
 }
 
+#paizao{
+    opacity: 0;
+    overflow: hidden;
+}
+
 @keyframes fade {
     0%{
         opacity: 0;
